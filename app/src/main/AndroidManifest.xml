@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bookcave">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/bookcavelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bookcavelogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name=".RentBook"
+            android:parentActivityName=".BookInfoOrder"/>
+        <activity android:name=".ViewOrderCustomer" />
+        <activity android:name=".UpdateOrder"
+            android:parentActivityName=".HomeSeller"/>
+        <activity android:name=".Placed" />
+        <activity android:name=".ChangeAddress" />
+        <activity android:name=".BuyBook"
+            android:parentActivityName=".BookInfoOrder"/>
+        <activity android:name=".BookInfoOrder"
+            android:parentActivityName=".HomeCustomer"/>
+        <activity android:name=".BookInfo" />
+        <activity android:name=".extras.PreviewBook" />
+        <activity android:name=".AddBook"
+            android:parentActivityName=".HomeSeller"/>
+        <activity
+            android:name=".HomeSeller"
+            android:label="@string/title_activity_home_seller"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".profile.ContactDeveloper"
+            android:parentActivityName=".HomeCustomer"/>
+        <activity android:name=".profile.PaymentHistoryC"
+            android:parentActivityName=".HomeCustomer"/>
+        <activity android:name=".profile.OrderHistoryC"
+            android:parentActivityName=".HomeCustomer"/>
+        <activity android:name=".profile.MyFavorites"
+            android:parentActivityName=".HomeCustomer"/>
+        <activity android:name=".profile.ProfileCustomer"
+            android:parentActivityName=".HomeCustomer"/>
+        <activity
+            android:name=".HomeCustomer"
+            android:label="@string/title_activity_home_customer" />
+        <activity android:name=".CreateAccountCustomer"
+            android:parentActivityName=".CustomerLogin"/>
+        <activity android:name=".CreatAccountSeller"
+            android:parentActivityName=".CustomerLogin"/>
+        <activity android:name=".forgot_password"
+            android:parentActivityName=".CustomerLogin"/>
+        <activity android:name=".CustomerLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

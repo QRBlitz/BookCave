@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_about_app.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_add_book.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_book_info_order.xml" value="0.33" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_customer_login.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_favorites.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_favourites.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_home_customer.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_home_seller.xml" value="0.2625" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_order_history_c.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_profile_customer.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/activity_rent_book.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/content_home_seller.xml" value="0.2625" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_about.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_gallery.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_home.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_homec.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_profile.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_search.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_seller_current_orders.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_seller_profile.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/fragment_slideshow.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/row_book_list.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/row_filter_s_list.xml" value="0.2625" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/row_filter_s_list2.xml" value="0.2625" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/layout/row_order_cus_list.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/menu/actionbarmenu.xml" value="0.2625" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/menu/activity_home_seller_drawer.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ramaz/AndroidStudioProjects/BookCave-main/app/src/main/res/menu/home_seller.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/drawable/loading_shape.xml" value="0.156" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/activity_add_book.xml" value="0.1094224924012158" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/activity_contact_developer.xml" value="0.1" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/activity_creat_account_seller.xml" value="0.10258358662613981" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/activity_home_seller.xml" value="0.10309017223910841" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/app_bar_home_seller.xml" value="0.2" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/content_home_seller.xml" value="0.2" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/fragment_home.xml" value="0.10309017223910841" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/fragment_seller_profile.xml" value="0.10131712259371833" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/row_book_api_result.xml" value="0.10190217391304347" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/row_book_search_result.xml" value="0.10190217391304347" />
+        <entry key="..\:/Users/toizh/Downloads/BookCave/app/src/main/res/layout/row_order_cus_list.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
