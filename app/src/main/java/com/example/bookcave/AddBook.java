@@ -52,7 +52,7 @@ public class AddBook extends AppCompatActivity {
 
         final String book_title =intent.getStringExtra("book_title");
         final String image =intent.getStringExtra("book_thumbnail");
-        final String book_id =intent.getStringExtra("book_isbn");
+        String book_id =intent.getStringExtra("book_isbn");
         final String preview = intent.getStringExtra("book_preview");
         final String book_author = intent.getStringExtra("book_author");
         final String book_desc = intent.getStringExtra("book_desc");
@@ -69,6 +69,9 @@ public class AddBook extends AppCompatActivity {
         previewBtn=findViewById(R.id.previewBtn);
         thumbnail=findViewById(R.id.thumbnail);
 
+        if  (book_id.equals("empty")) {
+            book_id = UUID.randomUUID().toString();
+        }
 
         title.setText(book_title);
         Glide.with(AddBook.this).load(image).placeholder(R.drawable.loading_shape).dontAnimate().into(thumbnail);
@@ -81,6 +84,7 @@ public class AddBook extends AppCompatActivity {
             }
         });
 
+        String finalBook_id = book_id;
         updateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -120,7 +124,7 @@ public class AddBook extends AppCompatActivity {
 //                SellingBook sellingBook=new SellingBook(book_id,uniqueid,userid,uq,up,urp,udp,book_title,book_author,book_desc,book_cat,image,preview,date);
 
                 Map<String, Object> book = new HashMap<>();
-                book.put("bookid", book_id);
+                book.put("bookid", finalBook_id);
                 book.put("sellerid", userid);
                 book.put("sellerbookid", uniqueid);
                 book.put("quantities", uq);
